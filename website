@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chronic Illnesses of Alcohol Consumption</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+		h1 {
+			font-size: 32px;
+			color: #333333;
+			text-align: center;
+			margin-top: 50px;
+			margin-bottom: 10px;
+			}
+		h4 {
+			font-size: 16px;
+			color: #333333;
+			text-align: center;
+			margin-top: 10px;
+			margin-bottom: 50px;
+			}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			margin-bottom: 50px;
+		}
+		.card {
+			width: 400px;
+			height: 600px;
+			background-color: #ffffff;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+			margin-bottom: 20px;
+			transition: all 0.3s ease-in-out;
+			cursor: pointer;
+		}
+		.card:hover {
+			transform: scale(1.05);
+			box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+		}
+		.card img {
+			width: 100%;
+			height: 200px;
+			object-fit: cover;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+		}
+		.card h2 {
+			font-size: 24px;
+			color: #333333;
+			margin-top: 20px;
+			margin-left: 20px;
+		}
+		.card p {
+			font-size: 16px;
+			color: #333333;
+			margin-left: 20px;
+			margin-right: 20px;
+			margin-top: 10px;
+		}
+		@media only screen and (max-width: 768px) {
+			.container {
+				flex-direction: column;
+				align-items: center;
+			}
+			.card {
+				width: 80%;
+				margin-left: 0;
+				margin-right: 0;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>Chronic Illnesses of Alcohol Consumption</h1>
+	<h4>By Lucas Duduit</h4>
+	<div class="container">
+		<div class="card">
+<a style = "text-decoration: none;" href="https://www.nhsinform.scot/illnesses-and-conditions/stomach-liver-and-gastrointestinal-tract/alcohol-related-liver-disease#:~:text=Each%20time%20your%20liver%20filters,permanent%20damage%20to%20your%20liver."> 
+			<img src="https://ysm-res.cloudinary.com/image/upload/ar_16:9,c_fill,dpr_1.0,f_auto,g_faces:auto,q_auto:eco,w_1500/v1/yms/prod/60068c9d-2573-4a4e-9942-0dddb582b803">
+			<h2>Liver disease</h2>
+			<p>Excessive alcohol consumption can cause inflammation, scarring, and cirrhosis of the liver, which can lead to liver failure and even death.</p>
+			<p><strong>FACTS:</strong></p>
+			<ul>
+				<li>Alcohol-related liver disease is the 12th leading cause of death in the United States.</li>
+				<li>In 2019, there were 22,513 alcohol-related liver disease deaths in the United States.</li>
+			</ul>
+		</div>
+		<div class="card">
+<a style = "text-decoration: none;" href="https://www.hopkinsmedicine.org/health/wellness-and-prevention/alcohol-and-heart-health-separating-fact-from-fiction"> 
+			<img src="https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/06/485800-Heart-Disease-Facts-Statistics-and-You-1296x728-Header.png?h=1528">
+			<h2>Cardiovascular disease</h2>
+			<p>Long-term alcohol abuse can increase the risk of developing high blood pressure, heart disease, and stroke.</p>
+			<p><strong>FACTS:</strong></p>
+			<ul>
+				<li>Alcoholic cardiomyopathy ranges from 1-2% of all heavy alcohol users. Approximately 21-36% of all cardiomyopathies are attributed to alcohol.</li>
+		<ul>
+</div>
+		<div class="card">
+<a style = "text-decoration: none;" href="https://www.cdc.gov/cancer/alcohol/index.htm#:~:text=Some%20studies%20show%20that%20drinking,liquor%2C%20are%20linked%20with%20cancer."> 
+			<img src="https://cdn.cancercenter.com/-/media/ctca/images/others/blogs/2018/02-february/07-blog-cancer-cells-l.jpg?h=630&w=1200&hash=D58DDBB1D3F6F199AF5ADFBA044DCC93">
+			<h2>Cancer</h2>
+			<p>Alcohol consumption has been linked to an increased risk of several types of cancer, including breast, liver, and colon cancer.</p>
+			<p><strong>FACTS:</strong></p>
+			<ul>
+				<li>Alcohol use accounts for about 6% of all cancers and 4% of all cancer deaths in the United States.</li>
+				<li>Moderate alcohol consumption has been linked to an approximate 30-50% increased risk in breast cancer.</li>
+			</ul>
+</div>
+		<div class="card">
+<a style = "text-decoration: none;" href="https://www.nhsinform.scot/illnesses-and-conditions/stomach-liver-and-gastrointestinal-tract/alcohol-related-liver-disease#:~:text=Each%20time%20your%20liver%20filters,permanent%20damage%20to%20your%20liver."> 
+			<img src="https://images.hindustantimes.com/img/2023/01/12/550x309/human-brain-and-its-capabilities_4f427d58-d622-11e9-98d7-43b78744c7ea_1673521821466_1673521821466.jpg">
+			<h2>Mental Disorders</h2>
+			<p>Chronic alcohol abuse can increase the risk of developing depression, anxiety, and other mental health disorders.</p>
+			<p><strong>FACTS:</strong></p>
+			<ul>
+				<li> Some anxiety disorders, such as social anxiety disorder, precede alcohol use disorder in up to 80% of cases.</li>
+				<li> The prevalence of personality disorders in alcoholism ranges as high as 58-78%.</li>
+			</ul>
